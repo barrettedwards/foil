@@ -784,7 +784,8 @@ class Mongo(_DB):
             print "Error: Could not verify connection to database server:" + e.message
             return False
         else:
-            print "Database connection: Successful"
+            #print "Database connection: Successful"
+            pass
     
         return True
 
