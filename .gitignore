@@ -39,3 +39,4 @@ Thumbs.db
 env/
 docs/build
 docs/Makefile
+*.swp
