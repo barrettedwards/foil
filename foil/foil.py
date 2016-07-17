@@ -553,7 +553,7 @@ class Mongo(_DB):
         self.ssh_key_file = None
         self.dbtype = 'MongoDB'        
         
-        self.default_config_file_locations = ['.foilmongo', '~/.foilmongo']
+        self.default_config_file_locations = ['database.ini', '~/.database.ini']
         self.config_filename = config_filename
         self.auto_load_config_file = auto_load_config_file
         
