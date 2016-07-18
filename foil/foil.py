@@ -495,7 +495,7 @@ class Mongo(_DB):
     
     Example using a config file::
     
-        db = Mongo(config_filename='.foilmongo')
+        db = Mongo(config_filename='database.ini')
         db.connect()        
         client = db.client()
         <perform db actions using raw pymongo client object>
@@ -922,7 +922,7 @@ class SelfTest():
             config.init(db.config_defaults)
         
             # set default filename
-            filename = '.foilmongo'
+            filename = 'database.ini'
             
             # if the user passed in a filename on the command line use that
             # filename
@@ -947,7 +947,7 @@ class SelfTest():
         config.init(db.config_defaults)
 
         # set default filename
-        filename = '.foilmongo'
+        filename = 'database.ini'
         
         # if the user passed in a filename on the command line use that
         # filename
@@ -963,7 +963,7 @@ class SelfTest():
         """Example code to show how to load a config file"""
 
         # set default filename
-        filename = '.foilmongo'
+        filename = 'database.ini'
         
         # if the user passed in a filename on the command line use that
         # filename
@@ -991,7 +991,7 @@ class SelfTest():
         """Example code to show how to connect to MongoDB"""
 
         # set default filename
-        filename = '.foilmongo'
+        filename = 'database.ini'
         
         # if the user passed in a filename on the command line use that
         # filename
